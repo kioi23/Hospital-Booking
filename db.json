@@ -1,0 +1,36 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr Victor Myles",
+      "specialization": "Cardiology"
+    },
+    {
+      "id": "2",
+      "name": "Dr Bruce James",
+      "specialization": "Dermatology"
+    },
+    {
+      "id": "3",
+      "name": "Dr Monique Rehema",
+      "specialization": "Pediatrics"
+    }
+  ],
+  "bookings": [
+    {
+      "doctorId": "1",
+      "type": "Consultation",
+      "date": "2026-11-04",
+      "time": "10:30",
+      "id": "wG-_BC0y5Mc"
+    },
+    {
+      "doctorId": "1",
+      "type": "Consultation",
+      "date": "2026-11-04",
+      "time": "11:30",
+      "id": "RRZjuUhBydM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
